@@ -8,7 +8,7 @@ This Streamlit-based intelligent bot can:
 
 ---
 
-## 🔗 Features
+## Features
 
 - **Automatic YouTube Transcript Summary**
 - **Website Question Answering using RAG principles**

@@ -44,7 +44,7 @@ def extract_transcript_details(youtube_video_url):
     
 
 
-#for extracting website contetns
+#for extracting website content
 def website_content(website_url):
     try:
         response=requests.get(website_url,timeout=10)

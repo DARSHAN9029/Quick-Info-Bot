@@ -21,21 +21,23 @@ This Streamlit-based intelligent bot can:
 ## ⚙ Installation
 
 ### 1. Clone the repo
-bash
+```
 git clone https://github.com/DARSHAN9029/Quick-Info-Bot.git
 cd quick-info-bot
+```
 
 ### 2. Create virtual environment & install dependencies
-bash
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 ### 3. Set up environment variables
 Create a .env file with your Gemini API Key:
-
+```
 GOOGLE_API_KEY=your_google_gemini_api_key_here
-
+```
 ---
 ### Screenshots of working :
 1. For Youtube video ( Summarizes the youtube video)

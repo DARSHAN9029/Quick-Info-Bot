@@ -80,16 +80,16 @@ if input_url:
         video_id=input_url.split("=")[1]
         st.image(f"http://img.youtube.com/vi/{video_id}/0.jpg",use_container_width=True)
 
-    if st.button("Summarize!"):
-        with st.spinner("Extracting transcript and summarizing..."):
-            transcript_text = extract_transcript_details(input_url)
+        if st.button("Summarize!"):
+            with st.spinner("Extracting transcript and summarizing..."):
+                transcript_text = extract_transcript_details(input_url)
 
-            if transcript_text:
-                summary=genearte_content(transcript_text,prompt)
-                st.markdown("## Detailed Information:")
-                st.write(summary)
-            else:
-                st.error("Couldn't able to fetch")
+                if transcript_text:
+                    summary=genearte_content(transcript_text,prompt)
+                    st.markdown("## Detailed Information:")
+                    st.write(summary)
+                else:
+                    st.error("Couldn't able to fetch")
 
     else:
         if st.button("Ask question"):

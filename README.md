@@ -3,7 +3,7 @@
 This Streamlit-based intelligent bot can:
 
 - 🎥 *Summarize YouTube videos* by extracting and processing their transcript text.
-- 🌐 *Answer questions from any website* by analyzing its content (supports multi-page websites).
+- 🌐 *Answer questions from any website* by analyzing its content.
 - 💡 *Provide code snippets* if the user asks programming-related questions.
 
 ---
